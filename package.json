@@ -1,0 +1,28 @@
+{
+  "name": "convict-format-secrets",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Convict format for loading secrets as a string value from the config or as a value from a file on an absolute path",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "tap ./test --no-check-coverage"
+  },
+  "author": "Trygve Lie",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/eslint-parser": "7.18.2",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "convict": "6.2.3",
+    "prettier": "2.6.2",
+    "semantic-release": "19.0.2",
+    "tap": "16.2.0"
+  }
+}
