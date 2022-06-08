@@ -4,7 +4,7 @@ import validator from '../src/main.js';
 
 convict.addFormat(validator);
 
-tap.test('Non string value', (t) => {
+tap.test('Value is an absolute path to an existing file', (t) => {
     const fixture = new URL('../fixtures/secret.txt', import.meta.url).pathname;
 
     const config = convict({

@@ -4,7 +4,7 @@ import validator from '../src/main.js';
 
 convict.addFormat(validator);
 
-tap.test('Non string value', (t) => {
+tap.test('Value is a ./ relative path', (t) => {
     const config = convict({
         token: {
             format: 'secret-string',
